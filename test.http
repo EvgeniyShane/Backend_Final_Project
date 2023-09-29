@@ -1,0 +1,20 @@
+###
+POST http://localhost:8000/auth/jwt/create/ HTTP/1.1
+Content-Type: "text/html"
+
+{
+    "username": "alex",
+    "password": "H77h6n{u1efN"
+}
+
+### POST Comment
+POST http://localhost:8000/api/comments/ HTTP/1.1
+Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk0ODczNTkzLCJpYXQiOjE2OTQ4NzMyOTMsImp0aSI6IjcxM2U4YWYyYzlkNDRlOWI5MDFhYmU4YzBhYzgzNzdhIiwidXNlcl9pZCI6Mn0.GX9yA9XHHWP_dUoT9xPiZURQql7hbEeJhu8PjrfX8Qk"
+Content-Type: "application/json"
+
+{
+    "id": 1,
+    "comment": "dsadsa",
+    "anime": 1,
+    "author": 3
+}

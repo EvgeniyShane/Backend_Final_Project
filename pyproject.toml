@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "game-blog-backend"
+version = "0.1.0"
+description = ""
+authors = ["Allen Kane <allen8kane@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+djangorestframework = "^3.14.0"
+django = "^4.2.5"
+markdown = "^3.4.4"
+django-filter = "^23.2"
+pillow = "^10.0.0"
+django-cors-headers = "^4.2.0"
+djoser = "^2.2.0"
+djangorestframework-simplejwt = "^5.3.0"
+django-summernote = "^0.8.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
